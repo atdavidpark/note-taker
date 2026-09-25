@@ -68,3 +68,7 @@ Requires Xcode 27 / macOS 26+.
 - `Sources/NoteTaker/SummaryService.swift` — Anthropic / OpenAI / Ollama providers
 - `Sources/NoteTaker/HotKeys.swift` — Carbon global hotkeys
 - `App/Info.plist`, `Scripts/make-app.sh` — bundle assembly
+
+## License
+
+MIT — see [LICENSE](LICENSE).
