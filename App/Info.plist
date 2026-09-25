@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.davidpark.NoteTaker</string>
+    <key>CFBundleName</key>
+    <string>NoteTaker</string>
+    <key>CFBundleDisplayName</key>
+    <string>NoteTaker</string>
+    <key>CFBundleExecutable</key>
+    <string>NoteTaker</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>ko</string>
+    </array>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>26.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>NoteTaker records your microphone so it can transcribe what you say in meetings.</string>
+    <key>NSAudioCaptureUsageDescription</key>
+    <string>NoteTaker records system audio so it can transcribe what other meeting participants say (e.g. Google Meet in your browser).</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>NoteTaker transcribes meeting audio entirely on this Mac.</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>NoteTaker can optionally read your calendar to name recordings after the meeting you are in. This is off by default.</string>
+</dict>
+</plist>

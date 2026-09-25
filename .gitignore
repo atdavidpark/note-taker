@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager / build output
+.build/
+build/
+*.xcodeproj
+.swiftpm/
+Package.resolved
+
+# Claude Code local settings
+.claude/settings.local.json
+.claude/.cc-writes/
